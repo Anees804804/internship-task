@@ -1,0 +1,15 @@
+/* THIS IS BODY TEXT STYLE*/
+body{
+    background-color: lightgray
+    ;
+}
+#title{
+    color: blue;
+}
+.box{
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px;
+    border: 20xp solid black;
+
+}
