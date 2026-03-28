@@ -1,0 +1,104 @@
+.container{
+    width: 80;
+    margin: auto;
+    background-color: blue;
+}
+.btn{
+    background: blue;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn{
+    background: darkblue;
+}* Reset default spacing */
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  background: black;
+  color: white;
+  padding: 15px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Nav links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* SECTION (Hero) */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* FEATURES */
+section div {
+  background: lightgray;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 🔥 FLEXBOX FOR FEATURES */
+section:nth-of-type(2) {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 📱 RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+  /* Navbar stack ho jaye */
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Links neeche aa jayein */
+  .navbar a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  /* Features ek column me aa jayein */
+  section:nth-of-type(2) {
+    flex-direction: column;
+  }
+}
